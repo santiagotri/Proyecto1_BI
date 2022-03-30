@@ -1,9 +1,9 @@
 # PROYECTO 1 - CLASIFICACIÓN DE PACIENTES ELEGIBLES PARA PRUEBAS DE CÁNCER
 
 ## Autores
-Juan Sebastián Ramírez 201923800
-Andrés Santiago Triana 201923265
-Gabriela García 201912531
+- Juan Sebastián Ramírez 201923800
+- Andrés Santiago Triana 201923265
+- Gabriela García 201912531
 
 ## Entrega
 
