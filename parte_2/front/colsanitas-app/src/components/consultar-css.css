@@ -1,0 +1,99 @@
+.contenedor-central{
+    text-align: center;
+    max-width: 800px;
+    margin: auto;
+    
+}
+
+.logo-img{
+    max-width: 50%;
+    margin-top:82px;
+}
+
+
+label{
+    margin-top: 10%;
+    margin-bottom: 20px;
+}
+
+
+.espacio-formulario{
+    min-height: 20%
+}
+
+label{
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 39px;
+}
+
+.btn-colsanitas{
+    width: 230px;
+    height: 53px;
+    background: #092F87;
+    border-radius: 10px;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 39px;
+    /* identical to box height */
+    color: #FFFFFF;
+    margin: auto;
+    margin-top:10%;
+    margin-bottom:2%;
+    
+}
+
+.btn-colsanitas:active{
+    background: #000000;
+}
+
+.btn-colsanitas:hover{
+    background: #8ac240;
+}
+
+.btn-colsanitas:focus{
+    background: #22a9c9;
+}
+
+.a{
+    margin-top: 10px;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 39px;
+    text-align: center;
+    text-decoration-line: underline;
+    color: #90C83F;
+}
+
+.bold-p{
+    margin-top: 5%;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    text-align: center;
+
+    color: #000000;
+
+}
+
+p{
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 39px;
+
+    color: #000000;
+}
+
+.resultado{
+    
+    font-weight: 700;
+    font-size: 128px;
+    line-height: 155px;
+    text-align: center;
+
+    color: #90C83F;
+
+}
+
+
+
