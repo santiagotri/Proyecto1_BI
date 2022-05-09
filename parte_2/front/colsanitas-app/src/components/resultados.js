@@ -3,13 +3,21 @@ import { useEffect, useState } from "react";
 
 export default function Resultados(props) {
   const [ textoResultado, setTextoResultado ] = useState("");
+  const [ warningResultado, setWarningResultado ] = useState("");
   useEffect(() => {
-    if (props.elegible==="True") {
-      setTextoResultado("Elegible");
-    } else {
-      setTextoResultado("Not Elegible");
+    if(props.error==="True"){
+      setTextoResultado("");
+      setWarningResultado(props.warning);
+    }else{
+      if (props.elegible==="True") {
+        setTextoResultado("Elegible");
+      } else {
+        setTextoResultado("Not Elegible");
+      }
+      setWarningResultado(props.warning)
     }
-  },[textoResultado, props.elegible]);
+    
+  },[warningResultado, textoResultado, props.elegible,props.warning,props.error]);
 
   const handleSubmit = (event)=>{
   }
@@ -17,13 +25,14 @@ export default function Resultados(props) {
   return (
     <div>
       <div>
-        <div class="bold-p">Result</div>
+        <div className="bold-p">Result</div>
       </div>
 
-      <div class="resultado">{textoResultado}</div>
+      <div className="resultado">{textoResultado}</div>
+      <div className="warningResultado">{warningResultado}</div>
       <form onSubmit={handleSubmit}>
-        <div class="form-group">
-          <button type="submit" class="btn-colsanitas">Clear</button>
+        <div className="form-group">
+          <button type="submit" className="btn-colsanitas">Clear</button>
         </div>
       </form>
     </div>
